@@ -20,3 +20,4 @@ def cycle(driver):
     driver.find_element_by_xpath('//*[@id="header-toolbar-symbol-search"]/div/input').send_keys('BCRX' + "\n")
     time.sleep(5)
     driver.find_element_by_xpath('//*[@id="header-toolbar-symbol-search"]/div/input').send_keys('RIGL' + "\n")
+    time.sleep(5)
